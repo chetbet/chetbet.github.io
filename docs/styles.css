@@ -207,3 +207,30 @@
     border: 0;
   }
   
+  /* FAQ Section Styling */
+.faq {
+  list-style: none; /* Remove default bullets */
+  padding-left: 0;
+}
+
+.faq li {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-left: 4px solid #4a90e2;  /* blue accent border */
+  background-color: #f7f7f7;         /* subtle light background */
+  border-radius: 4px;
+  list-style: none;
+}
+
+.faq li strong {
+  color: #4a90e2;
+  display: inline-block;
+  min-width: 30px;
+  margin-bottom: 5px;
+}
+
+/* Optional: Adjust line breaks for better spacing */
+.faq li br {
+  display: block;
+  margin-bottom: 5px;
+}
